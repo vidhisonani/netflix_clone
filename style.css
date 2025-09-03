@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--blackcolor);
+  width: 100%;
 }
 
 .main {
@@ -189,6 +190,7 @@ nav button {
   padding-left: 1.55rem;
   border-radius: 8px;
   padding: 0.7rem;
+  overflow-y: hidden;
 }
 
 .slideshow::-webkit-scrollbar {
@@ -486,19 +488,16 @@ footer a {
 
 /* phone */
 @media screen and (min-width: 376px) and (max-width: 650px) {
-  body {
-    width: 110vw;
-  }
   hr {
-    width: 110vw;
+    width: 100%
   }
   .main {
     height: 70vh;
-    width: 110vw;
+    width: 100%;
   }
   .main .box {
     height: 70vh;
-    width: 110vw;
+    width: 100%;
   }
   nav {
     width: 100vw;
@@ -519,7 +518,7 @@ footer a {
   .email-container,
   .email-container2 {
     flex-direction: column;
-    max-width: 110vw;
+    max-width: 100vw;
     margin-top: 0;
   }
 
@@ -546,7 +545,7 @@ footer a {
     margin-bottom: 0px;
   }
   .slideshow {
-    width: 150%;
+    width: 100%;
   }
   .show {
     flex: 0 0 auto;
@@ -589,19 +588,16 @@ footer a {
 
 /* small width phone */
 @media screen and (min-width: 200px) and (max-width: 375px) {
-  body {
-    width: 110vw;
-  }
   hr {
-    width: 110vw;
+    width: 100%;
   }
   .main {
     height: 80vh;
-    width: 110vw;
+    width: 100%;
   }
   .main .box {
     height: 80vh;
-    width: 110vw;
+    width: 100%;
   }
   nav {
     width: 100vw;
