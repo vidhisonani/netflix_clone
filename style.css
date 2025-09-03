@@ -684,7 +684,7 @@ footer a {
   }
 }
 
-/* Teblet: 1 full-width card per row */
+/* Tablet: 1 full-width card per row */
 @media screen and (min-width: 651px) and (max-width: 1023px) {
   .card {
     width: 100%;
